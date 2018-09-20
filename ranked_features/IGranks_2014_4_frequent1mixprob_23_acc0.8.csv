@@ -1,0 +1,22 @@
+,Node1,Node2,Score
+0,"Name(id='t', ctx=Load())",Load(),0.26086956521739135
+1,"Name(id='main', ctx=Load())",Load(),0.23913043478260876
+2,"Name(id='open', ctx=Load())",Load(),0.21739130434782605
+3,"Name(id='T', ctx=Store())",Store(),0.2065217391304348
+4,Index(value=Num(n=1)),Num(n=1),0.2065217391304348
+5,"Name(id='T', ctx=Load())",Load(),0.19565217391304346
+6,"Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])","Name(id='__name__', ctx=Load())",0.19565217391304346
+7,"Name(id='f', ctx=Load())",Load(),0.19565217391304346
+8,"Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])",Eq(),0.18478260869565222
+9,"Name(id='range', ctx=Load())",Load(),0.1847826086956521
+10,"Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])",Str(s='__main__'),0.1847826086956521
+11,Index(value=Num(n=0)),Num(n=0),0.17391304347826098
+12,"Name(id='map', ctx=Load())",Load(),0.17391304347826098
+13,"Name(id='i', ctx=Load())",Load(),0.17391304347826086
+14,"List(elts=[], ctx=Load())",Load(),0.17391304347826086
+15,"Name(id='sys', ctx=Load())",Load(),0.16304347826086962
+16,"Name(id='len', ctx=Load())",Load(),0.16304347826086962
+17,"Name(id='__name__', ctx=Load())",Load(),0.15217391304347827
+18,"Name(id='i', ctx=Store())",Store(),0.14130434782608703
+19,"Import(names=[alias(name='sys', asname=None)])","alias(name='sys', asname=None)",0.13043478260869568
+20,"Name(id='int', ctx=Load())",Load(),0.11956521739130443

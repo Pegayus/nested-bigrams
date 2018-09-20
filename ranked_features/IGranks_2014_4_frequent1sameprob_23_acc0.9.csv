@@ -1,0 +1,520 @@
+,Node1,Node2,Score
+0,"keyword(arg='mode', value=Str(s='w'))",Str(s='w'),0.11956521739130443
+1,"BinOp(left=Name(id='q', ctx=Load()), op=Mod(), right=Num(n=2))",Mod(),0.11956521739130443
+2,"Assign(targets=[Name(id='count', ctx=Store())], value=Num(n=1))",Num(n=1),0.10869565217391308
+3,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='A', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.10869565217391308
+4,"Name(id='open', ctx=Load())",Load(),0.10869565217391308
+5,"Name(id='Q', ctx=Load())",Load(),0.10869565217391308
+6,"Attribute(value=Name(id='f', ctx=Load()), attr='close', ctx=Load())","Name(id='f', ctx=Load())",0.10869565217391308
+7,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store())], ctx=Store())","Name(id='a', ctx=Store())",0.10869565217391308
+8,"Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load())","Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.10869565217391308
+9,"Return(value=Name(id='count', ctx=Load()))","Name(id='count', ctx=Load())",0.10869565217391308
+10,"Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Call(func=Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.10869565217391308
+11,"Call(func=Name(id='solve', ctx=Load()), args=[Name(id='A', ctx=Load()), Name(id='B', ctx=Load()), Name(id='K', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='K', ctx=Load())",0.10869565217391308
+12,"Call(func=Name(id='str', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='result', ctx=Load())",0.10869565217391308
+13,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.10869565217391308
+14,Return(value=Str(s='Volunteer cheated!')),Str(s='Volunteer cheated!'),0.10869565217391308
+15,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store()), Name(id='k', ctx=Store())], ctx=Store())","Name(id='b', ctx=Store())",0.10869565217391308
+16,"Name(id='False', ctx=Load())",Load(),0.10869565217391308
+17,"Name(id='v', ctx=Load())",Load(),0.10869565217391308
+18,"Name(id='l', ctx=Load())",Load(),0.10869565217391308
+19,"arguments(args=[Name(id='f', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='f', ctx=Param())",0.10869565217391308
+20,"Name(id='f', ctx=Param())",Param(),0.10869565217391308
+21,"Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)","Name(id='str', ctx=Load())",0.10869565217391308
+22,"Attribute(value=Name(id='sys', ctx=Load()), attr='argv', ctx=Load())","Name(id='sys', ctx=Load())",0.10869565217391308
+23,"Name(id='word', ctx=Load())",Load(),0.10869565217391308
+24,"Compare(left=Name(id='l', ctx=Load()), ops=[Eq()], comparators=[Num(n=0)])",Num(n=0),0.10869565217391308
+25,"BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='i', ctx=Load())",0.10869565217391308
+26,"Name(id='iter', ctx=Load())",Load(),0.10869565217391308
+27,"Assign(targets=[Name(id='result', ctx=Store())], value=List(elts=[], ctx=Load()))","Name(id='result', ctx=Store())",0.10869565217391308
+28,"Call(func=Name(id='gcd', ctx=Load()), args=[Name(id='p', ctx=Load()), Name(id='q', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='q', ctx=Load())",0.10869565217391308
+29,"Call(func=Name(id='int', ctx=Load()), args=[Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.10869565217391308
+30,"Name(id='xrange', ctx=Load())",Load(),0.10869565217391308
+31,"Call(func=Name(id='solve', ctx=Load()), args=[Name(id='A', ctx=Load()), Name(id='B', ctx=Load()), Name(id='K', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='solve', ctx=Load())",0.10869565217391308
+32,"Name(id='m', ctx=Load())",Load(),0.10869565217391308
+33,"Expr(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='close', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None))","Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='close', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.10869565217391308
+34,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='l', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='l', ctx=Load())",0.10869565217391308
+35,"Name(id='__author__', ctx=Store())",Store(),0.10869565217391308
+36,"BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2))",Mod(),0.10869565217391308
+37,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='l', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='len', ctx=Load())",0.10869565217391308
+38,"Tuple(elts=[Name(id='P', ctx=Store()), Name(id='Q', ctx=Store())], ctx=Store())","Name(id='P', ctx=Store())",0.09782608695652184
+39,"BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.09782608695652184
+40,"BinOp(left=Name(id='q', ctx=Load()), op=Mod(), right=Num(n=2))","Name(id='q', ctx=Load())",0.09782608695652184
+41,"Import(names=[alias(name='sys', asname=None)])","alias(name='sys', asname=None)",0.09782608695652184
+42,"Call(func=Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load())",0.09782608695652184
+43,"Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load())","Name(id='stdin', ctx=Load())",0.09782608695652184
+44,"Call(func=Name(id='xrange', ctx=Load()), args=[Num(n=1), BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.09782608695652184
+45,Index(value=Num(n=1)),Num(n=1),0.09782608695652184
+46,"Name(id='int', ctx=Load())",Load(),0.09782608695652184
+47,"Name(id='n', ctx=Load())",Load(),0.09782608695652184
+48,"Tuple(elts=[Name(id='P', ctx=Store()), Name(id='Q', ctx=Store())], ctx=Store())","Name(id='Q', ctx=Store())",0.09782608695652184
+49,"Name(id='row', ctx=Store())",Store(),0.09782608695652184
+50,"Name(id='input', ctx=Load())",Load(),0.09782608695652184
+51,"Name(id='ss', ctx=Load())",Load(),0.09782608695652184
+52,"Name(id='s', ctx=Store())",Store(),0.09782608695652184
+53,"Name(id='temp', ctx=Load())",Load(),0.09782608695652184
+54,"Call(func=Name(id='xrange', ctx=Load()), args=[Num(n=1), BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)",Num(n=1),0.09782608695652184
+55,"Name(id='__name__', ctx=Load())",Load(),0.09782608695652184
+56,"Assign(targets=[Name(id='N', ctx=Store())], value=Call(func=Name(id='int', ctx=Load()), args=[Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None))","Name(id='N', ctx=Store())",0.09782608695652184
+57,"Tuple(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())",Store(),0.09782608695652184
+58,"Assign(targets=[Name(id='i', ctx=Store())], value=Num(n=0))","Name(id='i', ctx=Store())",0.09782608695652184
+59,Return(value=Num(n=1)),Num(n=1),0.09782608695652184
+60,"List(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())","Name(id='B', ctx=Store())",0.09782608695652173
+61,"Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])",Num(n=0),0.09782608695652173
+62,"Tuple(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())","Name(id='K', ctx=Store())",0.09782608695652173
+63,"Assign(targets=[Name(id='N', ctx=Store())], value=Call(func=Name(id='int', ctx=Load()), args=[Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='int', ctx=Load()), args=[Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)",0.09782608695652173
+64,Return(value=Num(n=0)),Num(n=0),0.09782608695652173
+65,"Name(id='gcd', ctx=Load())",Load(),0.09782608695652173
+66,"Name(id='T', ctx=Store())",Store(),0.09782608695652173
+67,"arguments(args=[Name(id='s', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='s', ctx=Param())",0.09782608695652173
+68,"Name(id='c', ctx=Load())",Load(),0.09782608695652173
+69,"BinOp(left=BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)), op=Add(), right=Str(s=': '))","BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))",0.09782608695652173
+70,"Attribute(value=Str(s='Case #{0}: {1}'), attr='format', ctx=Load())",Str(s='Case #{0}: {1}'),0.09782608695652173
+71,"Assign(targets=[Name(id='strings', ctx=Store())], value=List(elts=[], ctx=Load()))","Name(id='strings', ctx=Store())",0.09782608695652173
+72,"BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])])","Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)])",0.09782608695652173
+73,"Tuple(elts=[Name(id='p', ctx=Store()), Name(id='q', ctx=Store())], ctx=Store())","Name(id='q', ctx=Store())",0.09782608695652173
+74,"Name(id='impossible', ctx=Store())",Store(),0.09782608695652173
+75,"BinOp(left=BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)), op=Add(), right=Str(s=': '))",Str(s=': '),0.09782608695652173
+76,Return(value=Str(s='Fegla Won')),Str(s='Fegla Won'),0.09782608695652173
+77,"Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)])","Name(id='num', ctx=Load())",0.09782608695652173
+78,"Name(id='p', ctx=Param())",Param(),0.09782608695652173
+79,"Index(value=Name(id='n', ctx=Load()))","Name(id='n', ctx=Load())",0.09782608695652173
+80,"FunctionDef(name='is_power2', args=arguments(args=[Name(id='num', ctx=Param())], vararg=None, kwarg=None, defaults=[]), body=[Return(value=BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])]))], decorator_list=[])","Return(value=BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])]))",0.09782608695652173
+81,"BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='t', ctx=Load())",0.09782608695652173
+82,"Subscript(value=Name(id='l', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())","Name(id='l', ctx=Load())",0.09782608695652173
+83,"Name(id='len', ctx=Load())",Load(),0.09782608695652173
+84,"AugAssign(target=Name(id='count', ctx=Store()), op=Add(), value=Num(n=1))",Add(),0.09782608695652173
+85,"Compare(left=BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load())), ops=[Lt()], comparators=[Name(id='K', ctx=Load())])",Lt(),0.09782608695652173
+86,"Name(id='C', ctx=Store())",Store(),0.09782608695652173
+87,"BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load()))",BitAnd(),0.09782608695652173
+88,"Name(id='Q', ctx=Store())",Store(),0.09782608695652173
+89,"Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load())",Load(),0.09782608695652173
+90,"Name(id='q', ctx=Load())",Load(),0.09782608695652173
+91,"Name(id='a', ctx=Param())",Param(),0.09782608695652173
+92,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='v', ctx=Load())",0.09782608695652173
+93,"Attribute(value=Name(id='sys', ctx=Load()), attr='stdin', ctx=Load())","Name(id='sys', ctx=Load())",0.09782608695652173
+94,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store()), Name(id='k', ctx=Store())], ctx=Store())","Name(id='a', ctx=Store())",0.09782608695652173
+95,"Name(id='max', ctx=Load())",Load(),0.09782608695652173
+96,"arguments(args=[Name(id='A', ctx=Param()), Name(id='B', ctx=Param()), Name(id='K', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='K', ctx=Param())",0.09782608695652173
+97,"BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.09782608695652173
+98,"Compare(left=BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load())), ops=[Lt()], comparators=[Name(id='K', ctx=Load())])","BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load()))",0.09782608695652173
+99,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='b', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.09782608695652173
+100,"Compare(left=BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load())), ops=[Lt()], comparators=[Name(id='K', ctx=Load())])",Lt(),0.09782608695652173
+101,"Assign(targets=[Name(id='moves', ctx=Store())], value=Num(n=0))",Num(n=0),0.09782608695652173
+102,"Assign(targets=[Name(id='count', ctx=Store())], value=Num(n=0))",Num(n=0),0.09782608695652173
+103,"BinOp(left=Name(id='n', ctx=Load()), op=Mod(), right=Num(n=2))","Name(id='n', ctx=Load())",0.09782608695652173
+104,"Name(id='j', ctx=Load())",Load(),0.09782608695652173
+105,"Name(id='K', ctx=Param())",Param(),0.09782608695652173
+106,"BinOp(left=Name(id='n', ctx=Load()), op=Div(), right=Num(n=2))",Num(n=2),0.09782608695652173
+107,"Compare(left=BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2)), ops=[Eq()], comparators=[Num(n=0)])","BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2))",0.09782608695652173
+108,"BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load()))","Name(id='i', ctx=Load())",0.09782608695652173
+109,"BinOp(left=Name(id='i', ctx=Load()), op=Sub(), right=Num(n=1))",Num(n=1),0.09782608695652173
+110,"Name(id='possible', ctx=Store())",Store(),0.09782608695652173
+111,"Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)","BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))",0.09782608695652173
+112,"BinOp(left=Name(id='n', ctx=Load()), op=Div(), right=Num(n=2))","Name(id='n', ctx=Load())",0.09782608695652173
+113,"Assign(targets=[Name(id='result', ctx=Store())], value=List(elts=[], ctx=Load()))","List(elts=[], ctx=Load())",0.09782608695652173
+114,"Attribute(value=Name(id='output', ctx=Load()), attr='close', ctx=Load())",Load(),0.09782608695652173
+115,"Subscript(value=Name(id='s', ctx=Load()), slice=Slice(lower=Num(n=1), upper=None, step=None), ctx=Load())","Slice(lower=Num(n=1), upper=None, step=None)",0.09782608695652173
+116,"BinOp(left=Name(id='m', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='m', ctx=Load())",0.09782608695652173
+117,"Call(func=Name(id='xrange', ctx=Load()), args=[Num(n=1), BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)","BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))",0.09782608695652173
+118,"Compare(left=Name(id='l', ctx=Load()), ops=[Eq()], comparators=[Num(n=0)])","Name(id='l', ctx=Load())",0.09782608695652173
+119,"Name(id='row2', ctx=Store())",Store(),0.09782608695652173
+120,"Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load())",Load(),0.09782608695652173
+121,"Call(func=Name(id='gcd', ctx=Load()), args=[Name(id='p', ctx=Load()), Name(id='q', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='gcd', ctx=Load())",0.09782608695652173
+122,"Name(id='raw_input', ctx=Load())",Load(),0.09782608695652173
+123,"BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.09782608695652173
+124,"Name(id='x', ctx=Store())",Store(),0.09782608695652173
+125,"Name(id='sys', ctx=Load())",Load(),0.09782608695652173
+126,"Call(func=Name(id='gcd', ctx=Load()), args=[Name(id='p', ctx=Load()), Name(id='q', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='p', ctx=Load())",0.09782608695652173
+127,"Import(names=[alias(name='math', asname=None)])","alias(name='math', asname=None)",0.09782608695652173
+128,"Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])",Str(s='__main__'),0.09782608695652173
+129,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='B', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='B', ctx=Load())",0.09782608695652173
+130,"Tuple(elts=[Name(id='p', ctx=Store()), Name(id='q', ctx=Store())], ctx=Store())",Store(),0.09782608695652173
+131,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='A', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.09782608695652173
+132,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='T', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.09782608695652173
+133,"BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))",Add(),0.09782608695652173
+134,"Name(id='first_line', ctx=Store())",Store(),0.09782608695652173
+135,"Call(func=Attribute(value=Name(id='output', ctx=Load()), attr='close', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Attribute(value=Name(id='output', ctx=Load()), attr='close', ctx=Load())",0.09782608695652173
+136,"Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])","BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1)))",0.09782608695652173
+137,"Name(id='cases', ctx=Store())",Store(),0.09782608695652173
+138,"Name(id='x1', ctx=Store())",Store(),0.09782608695652173
+139,"BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])])",And(),0.09782608695652173
+140,"Name(id='impossible', ctx=Load())",Load(),0.09782608695652173
+141,"Name(id='o', ctx=Load())",Load(),0.09782608695652173
+142,"Attribute(value=Name(id='line', ctx=Load()), attr='split', ctx=Load())",Load(),0.09782608695652173
+143,"Name(id='A', ctx=Load())",Load(),0.09782608695652173
+144,"Name(id='sorted', ctx=Load())",Load(),0.09782608695652173
+145,"Name(id='p', ctx=Load())",Load(),0.09782608695652173
+146,"Name(id='row1', ctx=Store())",Store(),0.09782608695652173
+147,"Subscript(value=Name(id='strings', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())",Load(),0.09782608695652173
+148,"Name(id='num', ctx=Param())",Param(),0.09782608695652173
+149,"Index(value=Name(id='i', ctx=Load()))","Name(id='i', ctx=Load())",0.09782608695652173
+150,"BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='T', ctx=Load())",0.09782608695652173
+151,"Compare(left=BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2)), ops=[Eq()], comparators=[Num(n=0)])",Eq(),0.09782608695652173
+152,"Name(id='a1', ctx=Load())",Load(),0.09782608695652173
+153,"Call(func=Name(id='xrange', ctx=Load()), args=[Num(n=4)], keywords=[], starargs=None, kwargs=None)",Num(n=4),0.09782608695652173
+154,"BinOp(left=Name(id='a', ctx=Load()), op=Mod(), right=Name(id='b', ctx=Load()))","Name(id='a', ctx=Load())",0.09782608695652173
+155,"Assign(targets=[Name(id='count', ctx=Store())], value=Num(n=0))","Name(id='count', ctx=Store())",0.09782608695652173
+156,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='v', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.08695652173913049
+157,"Attribute(value=Name(id='f', ctx=Load()), attr='close', ctx=Load())",Load(),0.08695652173913049
+158,"Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())",0.08695652173913049
+159,"Name(id='None', ctx=Load())",Load(),0.08695652173913049
+160,"Name(id='g', ctx=Load())",Load(),0.08695652173913049
+161,"Attribute(value=Name(id='sys', ctx=Load()), attr='stdin', ctx=Load())",Load(),0.08695652173913049
+162,"BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2))","Name(id='p', ctx=Load())",0.08695652173913049
+163,"Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.08695652173913049
+164,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='res', ctx=Load())",0.08695652173913049
+165,"Name(id='ans', ctx=Load())",Load(),0.08695652173913049
+166,"Subscript(value=Name(id='s', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())",Index(value=Num(n=0)),0.08695652173913049
+167,"BinOp(left=Name(id='j', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.08695652173913049
+168,"Name(id='letter', ctx=Store())",Store(),0.08695652173913049
+169,"Compare(left=BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load())), ops=[Lt()], comparators=[Name(id='k', ctx=Load())])","Name(id='k', ctx=Load())",0.08695652173913049
+170,"Subscript(value=Attribute(value=Name(id='sys', ctx=Load()), attr='argv', ctx=Load()), slice=Index(value=Num(n=1)), ctx=Load())","Attribute(value=Name(id='sys', ctx=Load()), attr='argv', ctx=Load())",0.08695652173913049
+171,"Name(id='l', ctx=Param())",Param(),0.08695652173913049
+172,"Name(id='words', ctx=Load())",Load(),0.08695652173913049
+173,"Name(id='K', ctx=Store())",Store(),0.08695652173913049
+174,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='t', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.08695652173913049
+175,"Name(id='_', ctx=Store())",Store(),0.08695652173913049
+176,"Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load())",Load(),0.08695652173913049
+177,"BinOp(left=Name(id='count', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='count', ctx=Load())",0.08695652173913049
+178,"Name(id='long', ctx=Load())",Load(),0.08695652173913049
+179,"Attribute(value=Call(func=Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())",Load(),0.08695652173913049
+180,"Name(id='first_line', ctx=Load())",Load(),0.08695652173913049
+181,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='b', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='b', ctx=Load())",0.08695652173913049
+182,"Name(id='prev', ctx=Store())",Store(),0.08695652173913049
+183,"Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])",Eq(),0.08695652173913049
+184,"BinOp(left=Name(id='count', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.08695652173913049
+185,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='a', ctx=Load())",0.08695652173913049
+186,"Name(id='counter', ctx=Store())",Store(),0.08695652173913049
+187,"Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)","BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))",0.08695652173913049
+188,"Name(id='k', ctx=Store())",Store(),0.08695652173913049
+189,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='s', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='s', ctx=Load())",0.08695652173913049
+190,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='B', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.08695652173913049
+191,"Name(id='a', ctx=Store())",Store(),0.08695652173913049
+192,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='x', ctx=Load())",0.08695652173913049
+193,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='N', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.08695652173913049
+194,"Assign(targets=[Name(id='n', ctx=Store())], value=Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)",0.08695652173913049
+195,"Subscript(value=Name(id='strings', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())","Name(id='strings', ctx=Load())",0.08695652173913049
+196,"Subscript(value=Attribute(value=Name(id='sys', ctx=Load()), attr='argv', ctx=Load()), slice=Index(value=Num(n=1)), ctx=Load())",Load(),0.08695652173913049
+197,"Name(id='row1', ctx=Load())",Load(),0.08695652173913049
+198,"Name(id='k', ctx=Load())",Load(),0.08695652173913049
+199,"Compare(left=Name(id='p', ctx=Load()), ops=[Lt()], comparators=[Name(id='q', ctx=Load())])",Lt(),0.08695652173913049
+200,"List(elts=[Name(id='P', ctx=Store()), Name(id='Q', ctx=Store())], ctx=Store())",Store(),0.08695652173913049
+201,"Call(func=Name(id='int', ctx=Load()), args=[Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.08695652173913049
+202,"BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))",Str(s='Case #'),0.08695652173913049
+203,"Name(id='bin', ctx=Load())",Load(),0.08695652173913049
+204,"Subscript(value=Attribute(value=Name(id='sys', ctx=Load()), attr='argv', ctx=Load()), slice=Index(value=Num(n=1)), ctx=Load())",Index(value=Num(n=1)),0.08695652173913049
+205,"Name(id='x', ctx=Param())",Param(),0.08695652173913049
+206,"Name(id='item', ctx=Load())",Load(),0.08695652173913049
+207,"Name(id='line', ctx=Load())",Load(),0.08695652173913049
+208,"Subscript(value=Name(id='s', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())","Name(id='s', ctx=Load())",0.08695652173913049
+209,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store()), Name(id='k', ctx=Store())], ctx=Store())",Store(),0.08695652173913049
+210,"BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))",Str(s='Case #'),0.08695652173913049
+211,"Compare(left=BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load())), ops=[Lt()], comparators=[Name(id='K', ctx=Load())])","Name(id='K', ctx=Load())",0.08695652173913049
+212,"Tuple(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())","Name(id='B', ctx=Store())",0.08695652173913049
+213,"Name(id='count', ctx=Store())",Store(),0.08695652173913049
+214,"Name(id='count', ctx=Load())",Load(),0.08695652173913049
+215,"Name(id='x2', ctx=Load())",Load(),0.08695652173913049
+216,"Slice(lower=Num(n=1), upper=None, step=None)",Num(n=1),0.08695652173913049
+217,"FunctionDef(name='is_power2', args=arguments(args=[Name(id='num', ctx=Param())], vararg=None, kwarg=None, defaults=[]), body=[Return(value=BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])]))], decorator_list=[])","arguments(args=[Name(id='num', ctx=Param())], vararg=None, kwarg=None, defaults=[])",0.08695652173913049
+218,"Assign(targets=[Name(id='result', ctx=Store())], value=Num(n=0))",Num(n=0),0.08695652173913049
+219,"Name(id='l', ctx=Store())",Store(),0.08695652173913049
+220,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='cases', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='cases', ctx=Load())",0.08695652173913049
+221,"Return(value=Name(id='False', ctx=Load()))","Name(id='False', ctx=Load())",0.08695652173913049
+222,"Name(id='d', ctx=Store())",Store(),0.08695652173913049
+223,"Expr(value=Call(func=Name(id='main', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='main', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.08695652173913049
+224,"Name(id='res', ctx=Store())",Store(),0.08695652173913049
+225,"Name(id='n1', ctx=Store())",Store(),0.08695652173913049
+226,"arguments(args=[Name(id='A', ctx=Param()), Name(id='B', ctx=Param()), Name(id='K', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='A', ctx=Param())",0.08695652173913049
+227,"Name(id='strings', ctx=Store())",Store(),0.08695652173913049
+228,"Name(id='range', ctx=Load())",Load(),0.08695652173913049
+229,"Attribute(value=Str(s='Case #{0}: {1}'), attr='format', ctx=Load())",Load(),0.08695652173913049
+230,"BinOp(left=Name(id='case', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.08695652173913049
+231,"Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[Str(s='/')], keywords=[], starargs=None, kwargs=None)",Str(s='/'),0.08695652173913049
+232,"Name(id='result', ctx=Load())",Load(),0.08695652173913049
+233,"Assign(targets=[Name(id='count', ctx=Store())], value=Num(n=1))","Name(id='count', ctx=Store())",0.08695652173913049
+234,"Name(id='B', ctx=Param())",Param(),0.08695652173913049
+235,"AugAssign(target=Name(id='count', ctx=Store()), op=Add(), value=Num(n=1))",Num(n=1),0.08695652173913049
+236,"Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load())",0.08695652173913049
+237,"Name(id='g', ctx=Store())",Store(),0.08695652173913049
+238,"Name(id='zip', ctx=Load())",Load(),0.08695652173913049
+239,"Call(func=Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[Str(s='/')], keywords=[], starargs=None, kwargs=None)",Str(s='/'),0.08695652173913049
+240,"List(elts=[Name(id='P', ctx=Store()), Name(id='Q', ctx=Store())], ctx=Store())","Name(id='P', ctx=Store())",0.08695652173913049
+241,"BinOp(left=Name(id='m', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.08695652173913049
+242,"Compare(left=BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load())), ops=[Lt()], comparators=[Name(id='k', ctx=Load())])","BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load()))",0.08695652173913049
+243,"ImportFrom(module='fractions', names=[alias(name='Fraction', asname=None)], level=0)","alias(name='Fraction', asname=None)",0.08695652173913049
+244,"AugAssign(target=Name(id='result', ctx=Store()), op=Add(), value=Num(n=1))",Add(),0.08695652173913049
+245,"Call(func=Name(id='range', ctx=Load()), args=[Num(n=4)], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.08695652173913049
+246,"Name(id='B', ctx=Load())",Load(),0.08695652173913049
+247,"BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))",Add(),0.08695652173913049
+248,"Name(id='n', ctx=Store())",Store(),0.08695652173913049
+249,Return(value=Str(s='Bad magician!')),Str(s='Bad magician!'),0.08695652173913049
+250,"arguments(args=[Name(id='x', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='x', ctx=Param())",0.08695652173913049
+251,"Name(id='A', ctx=Store())",Store(),0.08695652173913049
+252,"List(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())","Name(id='K', ctx=Store())",0.08695652173913049
+253,"AugAssign(target=Name(id='result', ctx=Store()), op=Add(), value=Num(n=1))",Num(n=1),0.08695652173913049
+254,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='possible', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='possible', ctx=Load())",0.08695652173913049
+255,"Name(id='row2', ctx=Load())",Load(),0.08695652173913049
+256,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='N', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='N', ctx=Load())",0.08695652173913049
+257,"Name(id='a2', ctx=Store())",Store(),0.08695652173913049
+258,"Name(id='n1', ctx=Load())",Load(),0.08695652173913049
+259,"Name(id='num', ctx=Store())",Store(),0.08695652173913049
+260,"BinOp(left=Name(id='T', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.08695652173913049
+261,"Name(id='a', ctx=Load())",Load(),0.08695652173913049
+262,"BinOp(left=Name(id='n', ctx=Load()), op=Mod(), right=Num(n=2))",Mod(),0.08695652173913049
+263,"keyword(arg='mode', value=Str(s='r'))",Str(s='r'),0.08695652173913049
+264,"Name(id='is_power2', ctx=Load())",Load(),0.08695652173913049
+265,"Assign(targets=[Name(id='moves', ctx=Store())], value=Num(n=0))","Name(id='moves', ctx=Store())",0.08695652173913049
+266,"Call(func=Name(id='map', ctx=Load()), args=[Name(id='int', ctx=Load()), Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.08695652173913049
+267,"Name(id='P', ctx=Load())",Load(),0.08695652173913049
+268,"Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.08695652173913049
+269,"Compare(left=BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2)), ops=[Eq()], comparators=[Num(n=0)])",Num(n=0),0.08695652173913049
+270,"Attribute(value=Name(id='l', ctx=Load()), attr='split', ctx=Load())","Name(id='l', ctx=Load())",0.08695652173913049
+271,"BinOp(left=Name(id='p', ctx=Load()), op=Mod(), right=Num(n=2))",Num(n=2),0.08695652173913049
+272,"BinOp(left=Name(id='case', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.08695652173913049
+273,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='n', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='n', ctx=Load())",0.08695652173913049
+274,"Attribute(value=Name(id='output', ctx=Load()), attr='write', ctx=Load())","Name(id='output', ctx=Load())",0.08695652173913049
+275,"Attribute(value=Name(id='math', ctx=Load()), attr='log', ctx=Load())","Name(id='math', ctx=Load())",0.08695652173913049
+276,"Attribute(value=Name(id='l', ctx=Load()), attr='split', ctx=Load())",Load(),0.08695652173913049
+277,"Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Name(id='raw_input', ctx=Load())",0.08695652173913049
+278,"arguments(args=[Name(id='a', ctx=Param()), Name(id='b', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='a', ctx=Param())",0.08695652173913049
+279,"arguments(args=[Name(id='a', ctx=Param()), Name(id='b', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='b', ctx=Param())",0.08695652173913049
+280,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='len', ctx=Load())",0.08695652173913049
+281,"BinOp(left=Name(id='a', ctx=Load()), op=Mod(), right=Name(id='b', ctx=Load()))",Mod(),0.08695652173913049
+282,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='i', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='i', ctx=Load())",0.08695652173913049
+283,"Call(func=Name(id='map', ctx=Load()), args=[Name(id='int', ctx=Load()), Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Name(id='map', ctx=Load())",0.08695652173913049
+284,"Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())","Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.08695652173913049
+285,"BinOp(left=Name(id='j', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.08695652173913049
+286,"BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))",Num(n=1),0.08695652173913049
+287,"Name(id='i', ctx=Store())",Store(),0.08695652173913049
+288,"BinOp(left=BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)), op=Add(), right=Str(s=': '))",Add(),0.08695652173913049
+289,"Subscript(value=Name(id='s', ctx=Load()), slice=Slice(lower=Num(n=1), upper=None, step=None), ctx=Load())",Load(),0.08695652173913049
+290,"Call(func=Name(id='str', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='str', ctx=Load())",0.08695652173913049
+291,"BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1)))","BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))",0.08695652173913038
+292,"If(test=Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')]), body=[Expr(value=Call(func=Name(id='main', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None))], orelse=[])","Expr(value=Call(func=Name(id='main', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None))",0.08695652173913038
+293,"Call(func=Name(id='solve', ctx=Load()), args=[Name(id='A', ctx=Load()), Name(id='B', ctx=Load()), Name(id='K', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='A', ctx=Load())",0.08695652173913038
+294,"Name(id='f', ctx=Load())",Load(),0.08695652173913038
+295,"Name(id='output', ctx=Load())",Load(),0.08695652173913038
+296,"Name(id='list', ctx=Load())",Load(),0.08695652173913038
+297,"AugAssign(target=Name(id='i', ctx=Store()), op=Add(), value=Num(n=1))","Name(id='i', ctx=Store())",0.08695652173913038
+298,"Compare(left=BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load())), ops=[Lt()], comparators=[Name(id='K', ctx=Load())])","BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load()))",0.08695652173913038
+299,"Name(id='gen', ctx=Load())",Load(),0.08695652173913038
+300,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='cases', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.08695652173913038
+301,"Name(id='result', ctx=Store())",Store(),0.08695652173913038
+302,"Call(func=Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Attribute(value=Name(id='stdin', ctx=Load()), attr='readline', ctx=Load())",0.08695652173913038
+303,"BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)",0.08695652173913038
+304,"Name(id='a2', ctx=Load())",Load(),0.08695652173913038
+305,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store())], ctx=Store())",Store(),0.08695652173913038
+306,"Attribute(value=Str(s='Case #{}: {}'), attr='format', ctx=Load())",Str(s='Case #{}: {}'),0.08695652173913038
+307,"Tuple(elts=[Name(id='P', ctx=Store()), Name(id='Q', ctx=Store())], ctx=Store())",Store(),0.08695652173913038
+308,"Name(id='d', ctx=Load())",Load(),0.08695652173913038
+309,"Name(id='N', ctx=Store())",Store(),0.08695652173913038
+310,"Compare(left=BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load())), ops=[Lt()], comparators=[Name(id='k', ctx=Load())])",Lt(),0.08695652173913038
+311,"Name(id='sum', ctx=Load())",Load(),0.08695652173913038
+312,"Tuple(elts=[Name(id='p', ctx=Store()), Name(id='q', ctx=Store())], ctx=Store())","Name(id='p', ctx=Store())",0.08695652173913038
+313,"Name(id='w', ctx=Store())",Store(),0.08695652173913038
+314,"BinOp(left=Name(id='n', ctx=Load()), op=Div(), right=Num(n=2))",Div(),0.08695652173913038
+315,"BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1)))",BitAnd(),0.08695652173913038
+316,"Name(id='cases', ctx=Load())",Load(),0.08695652173913038
+317,"Name(id='f', ctx=Store())",Store(),0.08695652173913038
+318,"Name(id='x1', ctx=Load())",Load(),0.08695652173913038
+319,"Attribute(value=Name(id='output', ctx=Load()), attr='close', ctx=Load())","Name(id='output', ctx=Load())",0.08695652173913038
+320,"arguments(args=[Name(id='p', ctx=Param()), Name(id='q', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='q', ctx=Param())",0.08695652173913038
+321,"Name(id='ans', ctx=Store())",Store(),0.08695652173913038
+322,"Tuple(elts=[Name(id='x', ctx=Store()), Name(id='y', ctx=Store())], ctx=Store())",Store(),0.08695652173913038
+323,"Name(id='t', ctx=Load())",Load(),0.08695652173913038
+324,"Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)])",NotEq(),0.08695652173913038
+325,"Name(id='str', ctx=Load())",Load(),0.08695652173913038
+326,"Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)])",Num(n=0),0.08695652173913038
+327,"BinOp(left=Name(id='case', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='case', ctx=Load())",0.08695652173913038
+328,"Attribute(value=Str(s='Case #{}: {}'), attr='format', ctx=Load())",Load(),0.08695652173913038
+329,"Name(id='B', ctx=Store())",Store(),0.08695652173913038
+330,"Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)","Name(id='str', ctx=Load())",0.07608695652173914
+331,"Name(id='case', ctx=Store())",Store(),0.07608695652173914
+332,"arguments(args=[Name(id='A', ctx=Param()), Name(id='B', ctx=Param()), Name(id='K', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='B', ctx=Param())",0.07608695652173914
+333,"AugAssign(target=Name(id='result', ctx=Store()), op=Add(), value=Num(n=1))","Name(id='result', ctx=Store())",0.07608695652173914
+334,"Name(id='letter', ctx=Load())",Load(),0.07608695652173914
+335,"Attribute(value=Name(id='sys', ctx=Load()), attr='argv', ctx=Load())",Load(),0.07608695652173914
+336,"BinOp(left=Name(id='count', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.07608695652173914
+337,"BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load()))","Name(id='a', ctx=Load())",0.07608695652173914
+338,"Name(id='z', ctx=Load())",Load(),0.07608695652173914
+339,"Return(value=Call(func=Name(id='str', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='str', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[], starargs=None, kwargs=None)",0.07608695652173914
+340,"Name(id='y', ctx=Store())",Store(),0.07608695652173914
+341,"Compare(left=Name(id='l', ctx=Load()), ops=[Eq()], comparators=[Num(n=0)])",Eq(),0.07608695652173914
+342,"Name(id='min', ctx=Load())",Load(),0.07608695652173914
+343,"Index(value=Name(id='j', ctx=Load()))","Name(id='j', ctx=Load())",0.07608695652173914
+344,"Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())",Load(),0.07608695652173914
+345,"Attribute(value=Name(id='strings', ctx=Load()), attr='append', ctx=Load())","Name(id='strings', ctx=Load())",0.07608695652173914
+346,"Subscript(value=Name(id='l', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())",Index(value=Num(n=0)),0.07608695652173914
+347,"Name(id='map', ctx=Load())",Load(),0.07608695652173914
+348,"Name(id='fo', ctx=Load())",Load(),0.07608695652173914
+349,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='N', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='N', ctx=Load())",0.07608695652173914
+350,"BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))",Sub(),0.07608695652173914
+351,"Name(id='strings', ctx=Load())",Load(),0.07608695652173914
+352,"Call(func=Name(id='range', ctx=Load()), args=[Num(n=4)], keywords=[], starargs=None, kwargs=None)",Num(n=4),0.07608695652173914
+353,"Name(id='lines', ctx=Store())",Store(),0.07608695652173914
+354,"Name(id='s', ctx=Load())",Load(),0.07608695652173914
+355,"Return(value=Name(id='None', ctx=Load()))","Name(id='None', ctx=Load())",0.07608695652173914
+356,"Name(id='z', ctx=Store())",Store(),0.07608695652173914
+357,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='B', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='B', ctx=Load())",0.07608695652173914
+358,"Name(id='inputFile', ctx=Load())",Load(),0.07608695652173914
+359,"Name(id='c', ctx=Store())",Store(),0.07608695652173914
+360,"arguments(args=[Name(id='self', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='self', ctx=Param())",0.07608695652173914
+361,"BinOp(left=Name(id='m', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.07608695652173914
+362,"Name(id='res', ctx=Load())",Load(),0.07608695652173914
+363,"Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())","Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.07608695652173914
+364,"AugAssign(target=Name(id='i', ctx=Store()), op=Add(), value=Num(n=1))",Num(n=1),0.07608695652173914
+365,"Name(id='w', ctx=Load())",Load(),0.07608695652173914
+366,"Subscript(value=Name(id='l', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())",Load(),0.07608695652173914
+367,"Subscript(value=Name(id='s', ctx=Load()), slice=Slice(lower=Num(n=1), upper=None, step=None), ctx=Load())","Name(id='s', ctx=Load())",0.07608695652173914
+368,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='B', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.07608695652173914
+369,"Assign(targets=[Name(id='i', ctx=Store())], value=Num(n=0))",Num(n=0),0.07608695652173914
+370,"BinOp(left=Name(id='a', ctx=Load()), op=Mod(), right=Name(id='b', ctx=Load()))","Name(id='b', ctx=Load())",0.07608695652173914
+371,"Return(value=Name(id='res', ctx=Load()))","Name(id='res', ctx=Load())",0.07608695652173914
+372,"Name(id='b', ctx=Store())",Store(),0.07608695652173914
+373,"BinOp(left=Name(id='a', ctx=Load()), op=BitAnd(), right=Name(id='b', ctx=Load()))","Name(id='b', ctx=Load())",0.07608695652173914
+374,"Subscript(value=Name(id='s', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())",Load(),0.07608695652173914
+375,"BinOp(left=BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)), op=Add(), right=Str(s=': '))",Add(),0.07608695652173914
+376,"Name(id='inputFile', ctx=Store())",Store(),0.07608695652173914
+377,"BinOp(left=Name(id='i', ctx=Load()), op=Sub(), right=Num(n=1))",Sub(),0.07608695652173914
+378,"List(elts=[], ctx=Load())",Load(),0.07608695652173914
+379,"Attribute(value=Name(id='output', ctx=Load()), attr='write', ctx=Load())",Load(),0.07608695652173914
+380,"Index(value=BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1)))","BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))",0.07608695652173914
+381,"Name(id='pow', ctx=Load())",Load(),0.07608695652173914
+382,"Name(id='x2', ctx=Store())",Store(),0.07608695652173914
+383,"Name(id='True', ctx=Load())",Load(),0.07608695652173914
+384,"Tuple(elts=[Name(id='x', ctx=Store()), Name(id='y', ctx=Store())], ctx=Store())","Name(id='y', ctx=Store())",0.07608695652173914
+385,"Name(id='r', ctx=Store())",Store(),0.07608695652173914
+386,"Name(id='v', ctx=Store())",Store(),0.07608695652173914
+387,"BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))",Add(),0.07608695652173914
+388,"Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load())","Name(id='f', ctx=Load())",0.07608695652173914
+389,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.07608695652173914
+390,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='result', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='result', ctx=Load())",0.07608695652173914
+391,"Name(id='words', ctx=Store())",Store(),0.07608695652173914
+392,"Call(func=Name(id='solve', ctx=Load()), args=[Name(id='A', ctx=Load()), Name(id='B', ctx=Load()), Name(id='K', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='B', ctx=Load())",0.07608695652173914
+393,"Name(id='x', ctx=Load())",Load(),0.07608695652173914
+394,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='len', ctx=Load())",0.07608695652173914
+395,"Return(value=Name(id='True', ctx=Load()))","Name(id='True', ctx=Load())",0.07608695652173914
+396,"BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1)))","Name(id='num', ctx=Load())",0.07608695652173914
+397,"Attribute(value=Name(id='line', ctx=Load()), attr='split', ctx=Load())","Name(id='line', ctx=Load())",0.07608695652173914
+398,"Name(id='moves', ctx=Store())",Store(),0.07608695652173914
+399,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store()), Name(id='k', ctx=Store())], ctx=Store())","Name(id='k', ctx=Store())",0.07608695652173914
+400,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='T', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='T', ctx=Load())",0.07608695652173914
+401,"Name(id='j', ctx=Store())",Store(),0.07608695652173914
+402,"Name(id='temp', ctx=Store())",Store(),0.07608695652173914
+403,"Name(id='case', ctx=Load())",Load(),0.07608695652173914
+404,"arguments(args=[Name(id='p', ctx=Param()), Name(id='q', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='p', ctx=Param())",0.07608695652173914
+405,"Name(id='a1', ctx=Store())",Store(),0.07608695652173914
+406,"Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])",Eq(),0.07608695652173914
+407,"Name(id='possible', ctx=Load())",Load(),0.07608695652173914
+408,"Attribute(value=Name(id='strings', ctx=Load()), attr='append', ctx=Load())",Load(),0.07608695652173914
+409,"Name(id='lines', ctx=Load())",Load(),0.07608695652173914
+410,"BinOp(left=Name(id='n', ctx=Load()), op=Mod(), right=Num(n=2))",Num(n=2),0.07608695652173914
+411,"BinOp(left=Name(id='q', ctx=Load()), op=Mod(), right=Num(n=2))",Num(n=2),0.07608695652173914
+412,"Name(id='N', ctx=Load())",Load(),0.07608695652173914
+413,"BinOp(left=Name(id='j', ctx=Load()), op=Add(), right=Num(n=1))","Name(id='j', ctx=Load())",0.07608695652173914
+414,"Name(id='q', ctx=Param())",Param(),0.07608695652173914
+415,"Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='close', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Attribute(value=Name(id='f', ctx=Load()), attr='close', ctx=Load())",0.07608695652173914
+416,"Name(id='num', ctx=Load())",Load(),0.07608695652173914
+417,"Name(id='d', ctx=Param())",Param(),0.07608695652173914
+418,"Name(id='math', ctx=Load())",Load(),0.07608695652173914
+419,"Name(id='object', ctx=Load())",Load(),0.07608695652173914
+420,"Name(id='b', ctx=Param())",Param(),0.07608695652173914
+421,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='i', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.07608695652173914
+422,"Call(func=Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[Str(s='/')], keywords=[], starargs=None, kwargs=None)","Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())",0.07608695652173914
+423,"Name(id='r', ctx=Load())",Load(),0.07608695652173914
+424,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='possible', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='len', ctx=Load())",0.07608695652173914
+425,"Name(id='stdin', ctx=Load())",Load(),0.07608695652173914
+426,Return(value=Str(s='impossible')),Str(s='impossible'),0.07608695652173914
+427,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='x', ctx=Load())",0.07608695652173914
+428,"Tuple(elts=[Name(id='x', ctx=Store()), Name(id='y', ctx=Store())], ctx=Store())","Name(id='x', ctx=Store())",0.07608695652173914
+429,"Return(value=Name(id='a', ctx=Load()))","Name(id='a', ctx=Load())",0.07608695652173914
+430,"Expr(value=Call(func=Attribute(value=Name(id='output', ctx=Load()), attr='close', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None))","Call(func=Attribute(value=Name(id='output', ctx=Load()), attr='close', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.07608695652173914
+431,Index(value=Num(n=2)),Num(n=2),0.07608695652173914
+432,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='a', ctx=Load())",0.07608695652173914
+433,"BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))",Num(n=1),0.07608695652173914
+434,"Name(id='p', ctx=Store())",Store(),0.07608695652173914
+435,"Assign(targets=[Name(id='t', ctx=Store())], value=Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)",0.07608695652173914
+436,"Name(id='counts', ctx=Load())",Load(),0.07608695652173914
+437,"Call(func=Name(id='len', ctx=Load()), args=[Name(id='res', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='len', ctx=Load())",0.07608695652173914
+438,"List(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())","Name(id='A', ctx=Store())",0.07608695652173914
+439,"Call(func=Name(id='int', ctx=Load()), args=[Name(id='s', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='int', ctx=Load())",0.07608695652173914
+440,"arguments(args=[Name(id='num', ctx=Param())], vararg=None, kwarg=None, defaults=[])","Name(id='num', ctx=Param())",0.07608695652173914
+441,"Return(value=Name(id='result', ctx=Load()))","Name(id='result', ctx=Load())",0.07608695652173914
+442,"AugAssign(target=Name(id='count', ctx=Store()), op=Add(), value=Num(n=1))","Name(id='count', ctx=Store())",0.07608695652173914
+443,"Compare(left=Name(id='p', ctx=Load()), ops=[Lt()], comparators=[Name(id='q', ctx=Load())])","Name(id='p', ctx=Load())",0.07608695652173914
+444,"List(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())",Store(),0.07608695652173914
+445,Index(value=Num(n=0)),Num(n=0),0.07608695652173914
+446,"Tuple(elts=[Name(id='A', ctx=Store()), Name(id='B', ctx=Store()), Name(id='K', ctx=Store())], ctx=Store())","Name(id='A', ctx=Store())",0.07608695652173914
+447,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='A', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='A', ctx=Load())",0.07608695652173914
+448,"Compare(left=Name(id='p', ctx=Load()), ops=[Lt()], comparators=[Name(id='q', ctx=Load())])","Name(id='q', ctx=Load())",0.07608695652173914
+449,"BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load()))",BitAnd(),0.07608695652173914
+450,"Attribute(value=Name(id='math', ctx=Load()), attr='log', ctx=Load())",Load(),0.07608695652173914
+451,"Tuple(elts=[Name(id='a', ctx=Store()), Name(id='b', ctx=Store())], ctx=Store())","Name(id='b', ctx=Store())",0.07608695652173914
+452,"Name(id='P', ctx=Store())",Store(),0.07608695652173914
+453,"Name(id='self', ctx=Load())",Load(),0.07608695652173914
+454,"Name(id='counter', ctx=Load())",Load(),0.07608695652173914
+455,"Name(id='n2', ctx=Load())",Load(),0.07608695652173914
+456,"Name(id='item', ctx=Store())",Store(),0.0652173913043479
+457,"AugAssign(target=Name(id='i', ctx=Store()), op=Add(), value=Num(n=1))",Add(),0.0652173913043479
+458,"Name(id='set', ctx=Load())",Load(),0.0652173913043479
+459,"BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])])","Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])",0.0652173913043479
+460,"Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[Str(s='/')], keywords=[], starargs=None, kwargs=None)","Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())",0.0652173913043479
+461,"BinOp(left=Name(id='i', ctx=Load()), op=Sub(), right=Num(n=1))","Name(id='i', ctx=Load())",0.0652173913043479
+462,"Assign(targets=[Name(id='result', ctx=Store())], value=Num(n=0))","Name(id='result', ctx=Store())",0.0652173913043479
+463,"Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())",Load(),0.0652173913043479
+464,"ImportFrom(module='sys', names=[alias(name='stdin', asname=None)], level=0)","alias(name='stdin', asname=None)",0.0652173913043479
+465,"Compare(left=BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load())), ops=[Lt()], comparators=[Name(id='K', ctx=Load())])","Name(id='K', ctx=Load())",0.0652173913043479
+466,"Assign(targets=[Name(id='strings', ctx=Store())], value=List(elts=[], ctx=Load()))","List(elts=[], ctx=Load())",0.0652173913043479
+467,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='b', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='b', ctx=Load())",0.0652173913043479
+468,"Name(id='y', ctx=Load())",Load(),0.0652173913043479
+469,"BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))","Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='i', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)",0.0652173913043479
+470,"Name(id='T', ctx=Load())",Load(),0.0652173913043479
+471,"Name(id='fo', ctx=Store())",Store(),0.0652173913043479
+472,"Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])","Name(id='__name__', ctx=Load())",0.0652173913043479
+473,"Name(id='moves', ctx=Load())",Load(),0.0652173913043479
+474,"Name(id='m', ctx=Store())",Store(),0.06521739130434778
+475,"Return(value=BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])]))","BoolOp(op=And(), values=[Compare(left=Name(id='num', ctx=Load()), ops=[NotEq()], comparators=[Num(n=0)]), Compare(left=BinOp(left=Name(id='num', ctx=Load()), op=BitAnd(), right=BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))), ops=[Eq()], comparators=[Num(n=0)])])",0.06521739130434778
+476,"List(elts=[Name(id='P', ctx=Store()), Name(id='Q', ctx=Store())], ctx=Store())","Name(id='Q', ctx=Store())",0.06521739130434778
+477,"Call(func=Name(id='xrange', ctx=Load()), args=[Num(n=4)], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.06521739130434778
+478,"Name(id='n2', ctx=Store())",Store(),0.06521739130434778
+479,"Assign(targets=[Name(id='t', ctx=Store())], value=Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None))","Name(id='t', ctx=Store())",0.06521739130434778
+480,"BinOp(left=Name(id='num', ctx=Load()), op=Sub(), right=Num(n=1))","Name(id='num', ctx=Load())",0.06521739130434778
+481,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='n', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.06521739130434778
+482,"Call(func=Name(id='map', ctx=Load()), args=[Name(id='int', ctx=Load()), Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Call(func=Attribute(value=Call(func=Name(id='raw_input', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.06521739130434778
+483,"Name(id='A', ctx=Param())",Param(),0.06521739130434778
+484,"Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None)","Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.06521739130434778
+485,"Name(id='b', ctx=Load())",Load(),0.06521739130434778
+486,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='b', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='range', ctx=Load())",0.06521739130434778
+487,"Name(id='self', ctx=Param())",Param(),0.06521739130434778
+488,"Name(id='abs', ctx=Load())",Load(),0.06521739130434778
+489,"Attribute(value=Call(func=Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='split', ctx=Load())","Call(func=Attribute(value=Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None), attr='strip', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)",0.06521739130434778
+490,"BinOp(left=BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)), op=Add(), right=Str(s=': '))",Str(s=': '),0.06521739130434778
+491,"Subscript(value=Name(id='strings', ctx=Load()), slice=Index(value=Num(n=0)), ctx=Load())",Index(value=Num(n=0)),0.06521739130434778
+492,"Name(id='solve', ctx=Load())",Load(),0.06521739130434778
+493,"BinOp(left=Name(id='i', ctx=Load()), op=BitAnd(), right=Name(id='j', ctx=Load()))","Name(id='j', ctx=Load())",0.06521739130434778
+494,"Name(id='output', ctx=Store())",Store(),0.06521739130434778
+495,"Name(id='ss', ctx=Store())",Store(),0.06521739130434778
+496,"Name(id='t', ctx=Store())",Store(),0.06521739130434778
+497,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='t', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='t', ctx=Load())",0.06521739130434778
+498,Index(value=Num(n=-1)),Num(n=-1),0.06521739130434778
+499,"Assign(targets=[Name(id='n', ctx=Store())], value=Call(func=Name(id='int', ctx=Load()), args=[Call(func=Attribute(value=Name(id='f', ctx=Load()), attr='readline', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)], keywords=[], starargs=None, kwargs=None))","Name(id='n', ctx=Store())",0.06521739130434778
+500,"Name(id='q', ctx=Store())",Store(),0.06521739130434778
+501,"Index(value=BinOp(left=Name(id='i', ctx=Load()), op=Sub(), right=Num(n=1)))","BinOp(left=Name(id='i', ctx=Load()), op=Sub(), right=Num(n=1))",0.06521739130434778
+502,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='a', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.06521739130434778
+503,"Name(id='line', ctx=Store())",Store(),0.06521739130434778
+504,"Name(id='s', ctx=Param())",Param(),0.06521739130434778
+505,"Name(id='counts', ctx=Store())",Store(),0.06521739130434778
+506,"Name(id='main', ctx=Load())",Load(),0.06521739130434778
+507,"Name(id='row', ctx=Load())",Load(),0.06521739130434778
+508,"Call(func=Name(id='xrange', ctx=Load()), args=[Name(id='N', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='xrange', ctx=Load())",0.06521739130434778
+509,"If(test=Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')]), body=[Expr(value=Call(func=Name(id='main', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None))], orelse=[])","Compare(left=Name(id='__name__', ctx=Load()), ops=[Eq()], comparators=[Str(s='__main__')])",0.05434782608695654
+510,"Name(id='k', ctx=Param())",Param(),0.05434782608695654
+511,"Call(func=Name(id='range', ctx=Load()), args=[Name(id='A', ctx=Load())], keywords=[], starargs=None, kwargs=None)","Name(id='A', ctx=Load())",0.05434782608695654
+512,"Name(id='Fraction', ctx=Load())",Load(),0.05434782608695654
+513,"Name(id='float', ctx=Load())",Load(),0.05434782608695654
+514,"Name(id='i', ctx=Load())",Load(),0.05434782608695654
+515,"BinOp(left=BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None)), op=Add(), right=Str(s=': '))","BinOp(left=Str(s='Case #'), op=Add(), right=Call(func=Name(id='str', ctx=Load()), args=[BinOp(left=Name(id='t', ctx=Load()), op=Add(), right=Num(n=1))], keywords=[], starargs=None, kwargs=None))",0.05434782608695654
+516,"Call(func=Name(id='main', ctx=Load()), args=[], keywords=[], starargs=None, kwargs=None)","Name(id='main', ctx=Load())",0.05434782608695654
+517,"Name(id='o', ctx=Store())",Store(),0.05434782608695654
+518,"Name(id='K', ctx=Load())",Load(),0.05434782608695654
