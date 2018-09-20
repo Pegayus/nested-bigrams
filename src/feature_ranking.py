@@ -1,7 +1,7 @@
 #get a dataframe and rank features
-#output: (1) inside ig_tuner and corr_tuner, save [#selected features,acc] in each step to plot later,
-#             print the whole list of x and list of y, send those to dunai
-# (2) save top features in a csv file with parent node in bgr in left col and the child in right col and imp in thir col
+#output: (1) inside ig_tuner and corr_tuner, save [#selected features,acc] in each step 
+#             and print the whole list of x and list of y
+# (2) save top features in a csv file with parent node in bgr in left col and the child in right col and importance score in third col
 # (3) make dataframe with new features (modify the input dataframe and select the cols that are in the list of
 #     selected bgrs. save the datafram.
 import os
