@@ -161,7 +161,7 @@ def full_train_test(train_features, train_labels, test_features, test_labels):
 
 if __name__ == '__main__':
     ###############################################################################
-    Fsubdir = '/dataframe/df_2012_4_frequent1sameProb_70.csv'
+    Fsubdir = '../dataframe/df_2012_4_frequent1sameProb_70.csv'
     ###############################################################################
     # Load data
     df = pd.read_csv(Fsubdir).drop('Unnamed: 0',axis=1)
@@ -210,4 +210,3 @@ if __name__ == '__main__':
     acc_mean = np.mean(cv_final_accs)
     acc_std = np.std(cv_final_accs)
     print('Mean Acc: {}, Sdt Acc: {}'.format(acc_mean, acc_std))
-    
