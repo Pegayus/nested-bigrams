@@ -8,7 +8,7 @@ import os
 import pandas as pd
 import operator
 import numpy as np
-import AST_features
+import ast_features
 from pandas import DataFrame as df
 from matplotlib import pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
