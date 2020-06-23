@@ -5,7 +5,7 @@
 import ast_features
 import os
 from shutil import copy
-import usersWithSameProbs
+import users_same_problems
 from pandas import DataFrame as df
 
 def sameProb(mydir, subdir):
