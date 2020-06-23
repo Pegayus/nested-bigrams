@@ -2,7 +2,7 @@
 #take dir of data and save the dataframe. you can use sameprob function to save only the ppl who have the same
 #  set of problems.
 
-import AST_features
+import ast_features
 import os
 from shutil import copy
 import usersWithSameProbs
