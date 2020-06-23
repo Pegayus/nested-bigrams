@@ -4,7 +4,7 @@
 
 import ast
 import os
-import ASTbigrams
+import ast_bigrams
 import numpy
 from sklearn.feature_selection import mutual_info_classif
 
